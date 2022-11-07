@@ -10,3 +10,9 @@ function backgroundAndText(background, text) {
   text.innerHTML; = "This is now a big red box";
   text.style.fontSize= "40px";
 }
+backgroundAndText(DomSelectors.box, DomSelectors.text);
+
+
+//delete cared
+//querySelectorAll 
+//for each button add 
