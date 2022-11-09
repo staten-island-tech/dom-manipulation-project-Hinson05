@@ -12,6 +12,9 @@ function backgroundAndText(background, text) {
 }
 backgroundAndText(DomSelectors.box, DomSelectors.text);
 
+DomSelectors.button.addEventListener("click", function(){
+  backgroundAndText
+}
 
 //delete cared
 //querySelectorAll 
