@@ -13,6 +13,15 @@ html {
 .sub {
   margin-top: 24px;
 }
-.head2{
+.head2 {
   margin-bottom: 24px;
+}
+.button3 {
+  padding: 12px;
+  margin: 15px;
+  background-color: grey;
+}
+.button4 {
+  padding: 12px;
+  margin: 15px;
 }
