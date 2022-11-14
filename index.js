@@ -3,26 +3,20 @@ const DomSelectors = {
   text: document.getElementById("container-box"),
   input: document.querySelector( '#input' ),
 };
-DomSelectors.box.insertAdjacentHTML("beforeend", '<h1>Contact Saver</h1>');
 
-console.log(DomSelectors.pointTwo);
-function backgroundAndText(background, text) {
-  background.style.backgroundColor = "black";
-  text.innerHTML; = "Contact Saver";
-  text.style.fontSize= "40px";
+let input = document.getElementById('input').value
+console.log('name')
+
+let input2 = document.getElementById('input2').value
+console.log('num')
+
+function addContact(e) {
+const contact = document.createElement('div');
+
+const nameinput = document.createElement('div');
+contact.className= 'namein'
+
+const numberinput = document.createElement('div');
+contact.className= 'numberin'
+
 }
-backgroundAndText(DomSelectors.box, DomSelectors.text);
-
-DomSelectors.button.addEventListener("click", function(){
-  backgroundAndText(DomSelectors.box, DomSelectors.text);
-}
-function saveCon() {
-  DomSelectors.point.forEach(point) => {
-    point.addEventListener("click", function(){
-      point.textContent= "Hello"; 
-    }
-
-
-//delete cared
-//querySelectorAll 
-//for each button add 

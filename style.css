@@ -1,8 +1,18 @@
 html {
   text-align: center;
-  background-color: aqua;
+  background-color: #d3d3d3;
 }
 .head {
-  font-style: italic;
-  color: salmon;
+  font-size: 46px;
+  color: #073b4c;
+  background-color: #61a5c2;
+}
+.name {
+  margin-bottom: 24px;
+}
+.sub {
+  margin-top: 24px;
+}
+.head2{
+  margin-bottom: 24px;
 }
