@@ -16,12 +16,15 @@ html {
 .head2 {
   margin-bottom: 24px;
 }
-.button3 {
+.delete {
   padding: 12px;
-  margin: 15px;
-  background-color: grey;
+  margin: 50px;
 }
-.button4 {
+.clear {
   padding: 12px;
-  margin: 15px;
+  margin: 50px;
+}
+.image {
+  height: 40px;
+  width: 40px;
 }
