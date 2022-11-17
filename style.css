@@ -8,13 +8,13 @@ html {
   background-color: #61a5c2;
 }
 .name {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 .sub {
   margin-top: 24px;
 }
 .head2 {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 .delete {
   padding: 12px;
@@ -28,3 +28,7 @@ html {
   height: 40px;
   width: 40px;
 }
+.button {
+  margin-top: 24px;
+}
+.

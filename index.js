@@ -13,21 +13,30 @@ DomSelectors.button.addEventListener("Submit", function (SaveCon) {
   let num = DomSelectors.num.value;
   DomSelectors.box.insertAdjacentHTML("afterend", <p>${num}</p>);
 });
-const contactList = document.createElement('list')
+/* const contactList = document.createElement('list')
 contactList.className = "list";
-NameDiv.className = 'name';
-NameDiv.textContent = name;
 contactDiv.append(NameDiv)
 document.querySelector('#list').append(contactList);
 
-document.querySelector('#button1')
+ document.querySelector('#input')
 .addEventListener('click', function() {
   const nameInput = document.querySelector('#name')
   addContact(nameInput.value)
-})
+}) */
 
-function SaveCon {
+function SaveCon(){
   let name = document.querySelector("#name");
-  let list= document.querySelector('#list')
+  let list= document.querySelector('#list');
   DomSelectors.box.insertAdjacentHTML("afterend", <p>${name}</p>);
 }
+
+const deleteButtons = document.querySelectorAll('.del'); 
+
+deleteButtons.forEach( button => {
+  button.addEventListener('click', removeMe); 
+});
+
+function removeMe() {
+   
+}
+
