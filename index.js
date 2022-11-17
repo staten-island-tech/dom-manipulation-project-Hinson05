@@ -1,9 +1,3 @@
-const DomSelectors = {
-  button: document.getElementById("button"),
-  text: document.getElementById("container-box"),
-  input: document.querySelector("#input"),
-};
-
 let name = document.getElementById("name").value;
 console.log("name");
 
@@ -19,5 +13,22 @@ DomSelectors.button.addEventListener("Submit", function () {
   let num = DomSelectors.num.value;
   DomSelectors.box.insertAdjacentHTML("afterend", <p>${num}</p>);
 });
+const contactList = document.createElement('list')
+contactList.className = "list";
+const nameInitialDiv= document.createElement('list');
+fullNameDiv.className = 'name';
+fullNameDiv.textContent = name;
+contactDiv.append(NameDiv)
+document.querySelector('#list').append(contactList);
 
-let list = document.querySelector();
+document.querySelector('#button1')
+.addEventListener('click', function() {
+  const nameInput = document.querySelector('#name')
+  addContact(nameInput.value)
+})
+
+function function() {
+  let name = document.querySelector("#name");
+  let list= document.querySelector('#list')
+  DomSelectors.box.insertAdjacentHTML("afterend", <p>${name}</p>);
+}
