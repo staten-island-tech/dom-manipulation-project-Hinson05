@@ -7,7 +7,7 @@ html {
   color: #073b4c;
   background-color: #61a5c2;
 }
-.name {
+#name {
   margin-bottom: 12px;
 }
 .sub {
@@ -31,4 +31,3 @@ html {
 .button {
   margin-top: 24px;
 }
-.

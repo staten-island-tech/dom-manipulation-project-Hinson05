@@ -1,45 +1,22 @@
-const DomSelectors = {
-  button: document.getElementById("button"),
-  list: document.querySelector("#list"),
-  input: document.getElementById("input"),
+const DOMSelectors = {
+  submit: document.getElementById("submit"),
+  list: document.getElementById("list"),
+  name: document.getElementById("name"),
+  clear: document.getElementById("clear")
 };
-let name = document.getElementById("name").value;
-console.log("name");
 
-let num = document.getElementById("num").value;
-console.log("num");
 
-DomSelectors.name.addEventListener("submit", function () {
-  let name = DomSelectors.name.value;
-  DomSelectors.box.insertAdjacentHTML("afterend", <p>${name}</p>);
+DOMSelectors.submit.addEventListener("click", function () {
+  let x = DOMSelectors.name.value
+  DOMSelectors.list.insertAdjacentHTML('afterbegin', <p>${x}</p>)
 });
 
-DomSelectors.num.addEventListener("submit", function () {
-  let num = DomSelectors.num.value;
-  DomSelectors.box.insertAdjacentHTML("afterend", <p>${num}</p>);
+DOMSelectors.clear.addEventListener("click", function() {
+  DOMSelectors.list.innerHTML = "";
 });
-/* const contactList = document.createElement('list')
-contactList.className = "list";
-contactDiv.append(NameDiv)
-document.querySelector('#list').append(contactList);
 
- document.querySelector('#input')
-.addEventListener('click', function() {
-  const nameInput = document.querySelector('#name')
-  addContact(nameInput.value)
-}) */
 
-function SaveCon() {
-  let name = document.querySelector("#name");
-  DomSelectors.box.insertAdjacentHTML("afterend", <p>${name}</p>);
-}
+DomSelectors.submit.addEventListener("click", function () {
 
-const deleteButtons = document.querySelectorAll("del");
-
-/*deleteButtons.forEach((button) => {
-  button.addEventListener("click", remove);
-});*/
-
-function remove() {
-  DomSelectors;
-}
+});
+console.log('test');
