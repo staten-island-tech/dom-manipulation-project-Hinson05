@@ -31,3 +31,12 @@ html {
 .button {
   margin-top: 24px;
 }
+#delete {
+  margin: 12px;
+}
+#clear {
+  margin: 12px;
+}
+#submit {
+  margin: 12px;
+}

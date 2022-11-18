@@ -2,6 +2,7 @@ const DOMSelectors = {
   submit: document.getElementById("submit"),
   list: document.getElementById("list"),
   name: document.getElementById("name"),
+  num: document.getElementById("num"),
   clear: document.getElementById("clear"),
 };
 
@@ -15,4 +16,14 @@ DOMSelectors.clear.addEventListener("click", function () {
 });
 
 DomSelectors.submit.addEventListener("click", function () {});
-console.log("test");
+
+DOMSelectors.submit.addEventListener("click", function () {
+  let e = DOMSelectors.num.value;
+  DOMSelectors.list.insertAdjacentHTML("afterend", `<p>${e}</p>`);
+});
+
+DOMSelectors.clear.addEventListener("click", function () {
+  DOMSelectors.list.innerHTML = "";
+});
+
+DomSelectors.submit.addEventListener("click", function () {});
