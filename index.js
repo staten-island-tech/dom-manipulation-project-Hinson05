@@ -30,9 +30,9 @@ DOMSelectors.clear.addEventListener("click", function () {
 });
 
 DOMSelectors.delete.addEventListener("click", function () {
-  let wowow = document.getElementsByClassName("yes");
-  let wowie = wowow.item(0);
-  let wowie2 = wowow.item(1);
-  wowie.remove();
-  wowie2.remove();
+  let ran = document.getElementsByClassName("yes");
+  let rando = ran.item(0);
+  let rando2 = ran.item(1);
+  rando.remove();
+  rando2.remove();
 });

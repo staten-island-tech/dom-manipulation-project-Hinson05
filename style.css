@@ -40,3 +40,8 @@ html {
 #submit {
   margin: 12px;
 }
+.yes {
+  margin: 0 auto;
+  padding: 12px;
+  background-color: #61a5c2;
+}
