@@ -7,6 +7,8 @@ const DOMSelectors = {
 };
 
 DOMSelectors.submit.addEventListener("click", function () {
+  let e = DOMSelectors.num.value;
+  DOMSelectors.list.insertAdjacentHTML("afterbegin", `<p>${e}</p>`);
   let x = DOMSelectors.name.value;
   DOMSelectors.list.insertAdjacentHTML("afterbegin", `<p>${x}</p>`);
 });
@@ -15,15 +17,3 @@ DOMSelectors.clear.addEventListener("click", function () {
   DOMSelectors.list.innerHTML = "";
 });
 
-DomSelectors.submit.addEventListener("click", function () {});
-
-DOMSelectors.submit.addEventListener("click", function () {
-  let e = DOMSelectors.num.value;
-  DOMSelectors.list.insertAdjacentHTML("afterend", `<p>${e}</p>`);
-});
-
-DOMSelectors.clear.addEventListener("click", function () {
-  DOMSelectors.list.innerHTML = "";
-});
-
-DomSelectors.submit.addEventListener("click", function () {});
