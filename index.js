@@ -11,7 +11,7 @@ DOMSelectors.submit.addEventListener("click", function () {
   let e = DOMSelectors.num.value;
   DOMSelectors.list.insertAdjacentHTML(
     "afterbegin",
-    `<p class= "yes">${e}</p>`
+    `<p class= "yes 1"> Name: ${e}</p>`
   );
 
   DOMSelectors.num.value = "";
@@ -19,7 +19,7 @@ DOMSelectors.submit.addEventListener("click", function () {
   let x = DOMSelectors.name.value;
   DOMSelectors.list.insertAdjacentHTML(
     "afterbegin",
-    `<p class= "yes" >${x}</p>`
+    `<p class= "yes 2" > Number: ${x}</p>`
   );
 
   DOMSelectors.name.value = "";
